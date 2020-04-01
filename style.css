@@ -1,3 +1,77 @@
 body{
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
+}
+.navbar-expand-lg{
+    box-shadow: 1px 1px 5px rgb(135, 136, 136);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.carousel-inner{
+    box-shadow: 2px 2px 18px rgb(105, 105, 105);
+    border-radius: 10px;
+    background-color: rgb(187, 223, 240);
+}
+.tata{
+    color: darkcyan;
+}
+.tata2{
+    color: rgb(255, 80, 232);
+}
+.row{
+    margin-top: 30px;
+}
+.bata{
+    color: rgb(253, 95, 95);
+}
+.loice h3{
+    color: rgb(109, 123, 204);
+}
+.nanto li{
+    color: rgb(150, 111, 111);
+}
+.jara h2{
+    color: rgb(114, 15, 185);
+}
+.jara p{
+    color:  rgb(145, 46, 46);
+}
+.mall p{
+    color: goldenrod;
+} 
+.card-group{
+    margin-top: 5px;
+}
+.fanta{
+    float: right;
+    margin-left: 20px;
+}
+.fanta h4{
+    color: darksalmon;
+    padding-top: 6px;
+    margin-right:142px;
+}
+.card-group{
+   box-shadow: 2px 2px 40px;
+}
+.tea h5{
+    background-color: cadetblue;
+    color: blanchedalmond;
+    height: 50px;
+    width: 200px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 14px;
+    margin-bottom: 20px;
+}
+.card{
+    box-shadow: 1px 1px 15px;
+}
+.card-title{
+    color: darkcyan;
+}
+.card-text{
+    color: rgb(124, 75, 75);
+}
+.ninja h5{
+    color: rgb(253, 101, 50);
 }
