@@ -19,7 +19,7 @@ body{
     color: rgb(255, 80, 232);
 }
 .row{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .bata{
     color: rgb(253, 95, 95);
@@ -44,7 +44,8 @@ body{
 }
 .fanta{
     float: right;
-    margin-left: 20px;
+    margin-left: 5px;
+    margin-top: 7px;
 }
 .fanta h4{
     color: rgb(240, 69, 12);
@@ -54,18 +55,22 @@ body{
 .card-group{
    box-shadow: 2px 2px 40px;
 }
-.tea h5{
+.tea a h5{
     background-color: cadetblue;
     color: blanchedalmond;
     height: 50px;
     width: 200px;
-    padding: 10px 10px;
+    padding: 12px 40px;
     box-shadow: 2px 2px 14px;
-    margin-top: 10px;
-    border-color: firebrick solid;
+   
+}
+.tea a{
+    text-decoration: none;
 }
 .card{
+    border-radius: 10px;
     box-shadow: 1px 1px 15px rgb(216, 213, 204);
+   margin-bottom: 100px;
 }
 .card-title{
     color: darkcyan;
@@ -76,10 +81,11 @@ body{
 .ninja h5{
     color: rgb(253, 101, 50);
 }
+
 .fanta-top{
     float: right;
-   margin-right: 250px;
-   padding-top: 5px;
+   margin-right: 240px;
+   padding-top: 13px;
    color: rgb(250, 40, 40);
 }
 .toba h5{
@@ -90,9 +96,20 @@ body{
     color: indianred;
     text-align: center;
 }
+hr{
+    color: darkviolet;
+    background-color: rgb(255, 115, 0);
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+    width: 140px;
+}
 .joss img{
-    height: 100%;
-    width: 100%;
+   height: 500px;
+   width: 600px;
     box-shadow: 1px 1px 10px rgb(236, 231, 213);
 }
 
@@ -124,16 +141,7 @@ h6{
     width: 500px;
     padding-right: 5%;
 }
-hr{
-    background-color: rgb(255, 115, 0);
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: 2px;
-    width: 140px;
-}
+
 .shadow{
     margin-top: 40px;
 }
@@ -148,9 +156,115 @@ hr{
     font-size: 18px;
     text-align: center;
     margin-bottom: 60px;
-    color: rgb(194, 175, 175);
+    color: rgb(139, 143, 150);
 }
 marquee{
-    color: darksalmon;
+    color: rgb(100, 217, 238);
     font-size: 30px;
 }
+.top h2{
+    color: indianred;
+}
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+      border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 60px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
