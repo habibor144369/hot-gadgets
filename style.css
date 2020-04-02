@@ -3,14 +3,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .navbar-expand-lg{
-    box-shadow: 1px 1px 5px rgb(135, 136, 136);
+    box-shadow: 1px 1px 10px rgb(200, 202, 202);
     margin-top: 10px;
     border-radius: 10px;
 }
 .carousel-inner{
-    box-shadow: 2px 2px 18px rgb(105, 105, 105);
+    box-shadow: 2px 2px 18px rgb(170, 173, 177);
     border-radius: 10px;
-    background-color: rgb(187, 223, 240);
+    background-color: rgb(226, 240, 247);
 }
 .tata{
     color: darkcyan;
@@ -47,7 +47,7 @@ body{
     margin-left: 20px;
 }
 .fanta h4{
-    color: darksalmon;
+    color: rgb(240, 69, 12);
     padding-top: 6px;
     margin-right:142px;
 }
@@ -61,10 +61,11 @@ body{
     width: 200px;
     padding: 10px 10px;
     box-shadow: 2px 2px 14px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    border-color: firebrick solid;
 }
 .card{
-    box-shadow: 1px 1px 15px;
+    box-shadow: 1px 1px 15px rgb(216, 213, 204);
 }
 .card-title{
     color: darkcyan;
@@ -74,4 +75,82 @@ body{
 }
 .ninja h5{
     color: rgb(253, 101, 50);
+}
+.fanta-top{
+    float: right;
+   margin-right: 250px;
+   padding-top: 5px;
+   color: rgb(250, 40, 40);
+}
+.toba h5{
+    color: goldenrod;
+}
+.hunt h3{
+    padding-top: 30px;
+    color: indianred;
+    text-align: center;
+}
+.joss img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(236, 231, 213);
+}
+
+
+.card-img-top{
+    padding: 12px;
+}
+.card1{
+    margin-left: 12%;
+}
+.card1 img{
+    height: 100px;
+    width: 100px;
+    margin: 12%;
+}
+h6{
+    text-align: center;
+    font-weight: 600;
+}
+
+.card2{
+    margin-bottom: 15%;
+}
+.card3{
+    margin-top: 60%;
+}
+.last-img img{
+    height: 350px;
+    width: 500px;
+    padding-right: 5%;
+}
+hr{
+    background-color: rgb(255, 115, 0);
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    width: 140px;
+}
+.shadow{
+    margin-top: 40px;
+}
+.card-body{
+    background-color: rgb(224, 252, 252);
+    margin-top: 100px;
+}
+.misba{
+    margin-top: 35px;
+}
+.lorem{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: rgb(194, 175, 175);
+}
+marquee{
+    color: darksalmon;
+    font-size: 30px;
 }
